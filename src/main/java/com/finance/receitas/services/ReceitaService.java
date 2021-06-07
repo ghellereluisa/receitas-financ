@@ -12,6 +12,9 @@ import java.util.List;
 @Service
 public class ReceitaService {
 
+
+    private final ReceitaRepository receitaRepository;
+
     public ReceitaService(ReceitaRepository receitaRepository){
         this.receitaRepository = receitaRepository;
     }
